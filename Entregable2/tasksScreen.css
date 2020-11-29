@@ -1,0 +1,220 @@
+* {
+    border: 0;
+    margin:0;
+    font-size: 35px;
+    font-family: 'Amatic SC', cursive;
+}
+
+html {
+    color: white;
+    height:100%;
+    font-family: 'Amatic SC', cursive;
+    width: 100%;
+    height:100%;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-image: url("resources/taskassignment.jpg");
+    background-repeat: repeat;
+}
+
+.navbar{
+   display:flex;
+   flex-direction: row;
+   background-color: grey;
+   width: 100%;
+   height:15%;
+   justify-content: space-between;
+   position: sticky;
+   top: 0;
+   border-bottom:2px solid black;
+   
+}
+
+.logo{
+    
+    text-align: left;
+    width: 50%;
+    line-height: 50%;
+    flex-basis: 50%;
+    align-items: center;
+}
+
+.user{
+    display:flex;
+    flex-direction: row;   
+    margin-right:5%; 
+}
+
+.foto{
+    display:flex;
+    align-items: center;
+    
+}
+
+.datos{
+    display: flex;
+    flex-direction: column;
+    border-bottom-color:white;
+    justify-content: space-around;
+    text-align: center;
+    margin-left:15%; 
+}
+
+.correo{
+    font-weight: bolder;
+    font-size: 0.7em;
+
+}
+
+.lougout{
+    font-size: 1em;
+}
+
+.logout:hover {
+    cursor: pointer;
+}
+
+.body-container{
+    display: flex;
+    flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+    
+    height: 100%;
+    width: 100%;
+    color: black;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+    text-align: center;
+    width: 100%;
+    height: 4%;
+}
+#tarea-form{
+    width: 30%;
+    border: black 3px solid;
+}
+#boton {
+    border: black 3px solid;
+}
+#boton:hover{
+    cursor: pointer;
+    background-color: grey;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    list-style-type: circle;
+    align-items: center;
+    width: 100%;
+}
+li{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top:3%;
+}
+
+.container{
+    height: 100%;
+    width: 80%;
+    
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo{
+    flex-direction: row;
+    color: black;
+    font-size: 120px;
+    text-align: center;
+}
+
+
+.tarea{
+    display:flex;
+    flex-direction: row;
+    width: 80%;
+    line-height: 50px;
+    justify-content: center;
+    background-color: white;
+    border: 3px solid black;
+}
+
+.tarea-finalizada {
+    display:flex;
+    flex-direction: row;
+    border:3px solid white;
+    width: 80%;
+    text-align: left;
+    line-height: 45px;
+    background-color: white;
+    border: 3px solid black;
+    opacity: 60%;
+    text-decoration:line-through;
+    justify-content: center;
+
+}
+
+.tareaizq-print{
+    visibility: hidden;
+}
+
+.tareaizq{
+    border:3px solid white;
+    width: 100%;
+    flex-direction: row;
+    width: 70%;
+    color:black;
+}
+
+.tags {
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    margin-left: 10px;
+    color:white;
+    background-color: purple;
+}
+
+.parentesis{
+    visibility: hidden;
+}
+
+.tdrch{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: right;
+    margin-right: 2%;
+    align-items: center;
+}
+
+.finalizada{
+    width: 100%;
+    border: 3px solid black;
+}
+
+.eliminar{
+    border: black 3px solid;
+}
+.eliminar:hover{
+    cursor: pointer;
+    background-color: grey;
+}
+
+.finalizada:hover{
+    cursor: pointer;
+    background-color: grey;
+}
+

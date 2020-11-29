@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+   <head>
+      <title>TAREAS</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="tasksScreen.css">
+      <link rel="icon" type="img/ico" href="resources/icono.ico">
+      <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="tasksPrint.css" media="print" />
+      <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap" rel="stylesheet">
+
+   </head>
+   <body>
+      <div class="navbar">
+         <div class="logo">
+            <img src="resources/logo.png">
+         </div>
+
+         <div class="user">
+            <div class="foto"> <img src="resources/profile.jpg"> </div>
+            <div class="datos">
+               <div class="correo">USUARIO@UCM.ES</div>
+               <div class="logout">Desconectar</div>
+            </div>
+            
+         </div>
+      </div>
+
+      <div class="body-container">
+         <div class="form">
+            <form action="submit">
+               <input type="text" name="tarea" id="tarea-form" placeholder="Introduzca una tarea .." >
+               <input type="submit" value="GUARDAR" id="boton">
+               <input type="button" class="eliminar" value="Eliminar tareas completadas">
+            </form>
+         </div>
+         <div class="titulo">Tareas</div>
+         <div class="container">
+
+            <ul>
+
+               <li>
+                  <div class="tarea">
+                     <div class="tareaizq"> Preparar práctica AW: 
+                        <span class="tags">(aw)</span> 
+                        <span class="tags">(práctica)</span> 
+                     </div>
+                     
+                     <div class="tdrch">
+                        <button class="finalizada">MARCAR FINALIZADA</button>
+                     </div>  
+               </li>
+               
+               <li class=li-finalizado>
+                  <div class="tarea-finalizada">
+                     <div class="tareaizq">Esta es una tarea </div>
+                  </div>
+               </li>
+
+               <li>
+                  <div class="tarea">
+                     <div class="tareaizq"> Ir al supermercado: 
+                        <span class="tags">(personal)</span>
+                     </div>
+                     
+                     <div class="tdrch">
+                        <button class="finalizada">MARCAR FINALIZADA</button>
+                     </div>
+      
+                  </div>
+               </li>
+               <li>
+                  <div class="tarea">
+                     <div class="tareaizq" > Mudanza: 
+                        <span class="tags">(personal)</span>
+                     </div>
+                     
+                     <div class="tdrch">
+                        <button class="finalizada">MARCAR FINALIZADA</button>
+                     </div>
+      
+                  </div>
+               </li>
+            </ul>
+
+         </div>
+
+      </div>
+
+   </body>
+</html>
+

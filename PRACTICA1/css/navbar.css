@@ -1,0 +1,126 @@
+* {
+    border: 0;
+    margin: 0;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-image: url("../resources/abstract.jpg");
+}
+
+#search-button {
+    margin-left: 5px;
+    color: white;
+    border: 2px solid purple;
+    background-color: black;
+    width: 70px;
+    height: 30px;
+    border-radius: 10%;
+    text-align: center;
+}
+
+#search-button:hover {
+    background-color: purple;
+    width: 72px;
+    height: 32px;
+    cursor: pointer;
+}
+
+#logout-button {
+    color: white;
+    border: 2px solid purple;
+    background-color: black;
+    width: 160px;
+    border-radius: 10%;
+    text-align: center;
+}
+
+#logout-button:hover {
+    background-color: purple;
+    border: 1px solid white;
+    width: 163px;
+    cursor: pointer;
+}
+
+.navbar {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: stretch;
+    width: 100%;
+    height: 10%;
+    background: radial-gradient(center center, circle, black, #1162ac);
+    background-color: black;
+    /* background-image: url("resources/back.jpg"); */
+}
+
+.navbar-panel {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+    height: 100%;
+    text-align: center;
+}
+
+.search-panel {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 5%;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    font-size: 99px;
+}
+
+.navbar-perfil {
+    display: flex;
+    flex-direction: row;
+    /* margin-right: 5%; */
+}
+
+.foto {
+    border-radius: 50%;
+}
+
+.datos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 3%;
+}
+
+.nombre {
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.navbar-link {
+    width: 200px;
+}
+
+.navbar-link:hover {
+    cursor: pointer;
+}

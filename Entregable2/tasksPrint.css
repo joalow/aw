@@ -1,0 +1,121 @@
+* {
+    border: 0px;
+    margin:0;
+    font-size: 50px;
+    font-family: 'Roboto Slab', serif;
+
+}
+
+
+
+
+
+html{
+    background-color: white;
+    width: 100%;
+    height:100%;
+    text-align: left;
+}
+
+.navbar {
+    visibility: hidden;
+}
+
+.body-container{    
+    display: inherit;
+    flex-direction: none;
+	flex-wrap: none;
+    height: 100%;
+    width: 100%;
+    color: black;
+    text-align: left;
+    justify-content: left;
+	align-items: left;
+}
+
+.eliminar{
+    visibility: hidden;
+}
+
+.container{
+    height: 100%;
+    width: 80%;   
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.form{
+    visibility: hidden;
+}
+
+.titulo{
+    display: inline-block;
+    font-size: 18px;
+    padding-left: 1px;
+    text-align: left;
+    font-weight: bold;
+
+}
+
+
+ul{
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    font-size: 12px;
+    color: black;
+}
+
+li{
+    display: list-item;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top:3%;
+    font-size: 12px;
+    color: black;
+}
+
+.tarea{
+    display:inline-block;
+    flex-direction: none;
+    width: 100%;
+    line-height: 50px;
+    justify-content: center;
+    border: none;
+    background-color: none;
+}
+
+.tareaizq{
+    font-size: 12px;
+    width: 100%;
+    font-weight: bold;
+}
+
+.parentesis{
+    font-size: 12px;
+}
+
+.tags {
+    font-size: 12px;
+    color: black;
+    font-weight:lighter;
+}
+
+.tdrch{
+    display: none;
+}
+
+.li-finalizado{
+    margin-left: 25px;
+    text-decoration:line-through;
+}
+
+.tarea-finalizada {
+    text-align: left;
+    background-color: white;
+    border: none;
+    opacity: 100%;
+}
